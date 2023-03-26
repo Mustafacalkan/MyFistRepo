@@ -6,7 +6,7 @@ namespace calculatör
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hesap   Makinesi");
+            Console.WriteLine("Hesap  Makinesi");
 
             
             Console.Write("Birinci Sayıyı Giriniz: ");
