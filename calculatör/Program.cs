@@ -23,6 +23,9 @@ namespace calculatör
                 case "+":
                     Console.WriteLine(sayi1+sayi);
                     break;
+                case "-":
+                    Console.WriteLine(sayi1-sayi);
+                    break;
             }
 
 
