@@ -8,6 +8,7 @@ namespace calculatör
         {
             Console.WriteLine("Hesap Makinesi");
 
+            
             Console.Write("Birinci Sayıyı Giriniz: ");
             int sayi1=int.Parse(Console.ReadLine());
 
@@ -17,8 +18,14 @@ namespace calculatör
             Console.Write("İkinci Sayıyı Giriniz: ");
             int sayi = int.Parse(Console.ReadLine());
 
+            switch (islem)
+            {
+                case "+":
+                    Console.WriteLine(sayi1+sayi);
+                    break;
+            }
 
-            
+
         }
     }
 }
