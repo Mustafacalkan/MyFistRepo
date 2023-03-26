@@ -6,12 +6,16 @@
         {
             Console.WriteLine("Hesap Makinesi");
 
-            Console.WriteLine("Birinci Sayıyı Giriniz: ");
+            Console.Write("Birinci Sayıyı Giriniz: ");
             int sayi1=int.Parse(Console.ReadLine());
 
+            Console.Write("İşlem Seçiniz (+) (-) (*) (/) (%): ");
+            int islem =int.Parse(Console.ReadLine());
 
-            Console.WriteLine("İkinci Sayıyı Giriniz: ");
+            Console.Write("İkinci Sayıyı Giriniz: ");
             int sayi = int.Parse(Console.ReadLine());
+
+
 
         }
     }
