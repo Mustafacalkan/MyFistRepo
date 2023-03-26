@@ -10,13 +10,13 @@ namespace calculatör
 
             
             Console.Write("Birinci Sayıyı Giriniz: ");
-            int sayi1=int.Parse(Console.ReadLine());
+            double sayi1=double.Parse(Console.ReadLine());
 
             Console.Write("İşlem Seçiniz (+) (-) (*) (/) (%): ");
             string islem =Console.ReadLine();
 
             Console.Write("İkinci Sayıyı Giriniz: ");
-            int sayi = int.Parse(Console.ReadLine());
+            double sayi = double.Parse(Console.ReadLine());
 
             switch (islem)
             {
